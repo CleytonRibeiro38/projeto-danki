@@ -1,0 +1,30 @@
+/*==========RESET==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+/*==========HEADER==========*/
+.header {background: url(../imagens/capa.png) no-repeat; background-size: cover;}
+.header01 {display: flex; justify-content: space-between; align-items: center; padding: 40px 35px;}
+.header01 img {width: 160px;}
+.header01 .menu {display: flex;}
+.header01 .menu li a {color: white;}
+.header01 .menu li + li {margin-left: 40px;}
+.header02 {margin: 170px 150px 0 560px;}
+.header02 h2, .header02 p {color: white;}
+.header02 h2 {font-weight: lighter; font-size: 40px; line-height: 1.5; margin-bottom: 10px;}
+.header02 p {padding-bottom: 330px;}
+/*==========CONTENT==========*/
+.content01 {display: flex; justify-content: space-between; background-color: #472562; padding: 0 150px 0 310px;}
+.content01a h2, .content01a p, .content01a ul li {color: white;}
+.content01a h2 {font-weight: lighter; font-size: 25px; margin-top: 55px; margin-bottom: 30px;}
+.content01a p {margin-bottom: 10px;}
+.content01a ul li {list-style: disc; margin-left: 15px;}
+.content01a ul li + li {margin-top: 10px;}
+.content01a button {width: 160px; height: 45px; border-radius: 25px; border: none; background-color: #ff703d; 
+color: white; cursor: pointer; margin-top: 30px;}
+.content01b img {width: 500px; margin: -30px 0 -4px 0;}
