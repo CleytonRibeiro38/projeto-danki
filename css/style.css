@@ -18,6 +18,15 @@
 .header02 h2, .header02 p {color: white;}
 .header02 h2 {font-weight: lighter; font-size: 40px; line-height: 1.5; margin-bottom: 10px;}
 .header02 p {padding-bottom: 330px;}
+@media screen and (max-width: 600px){
+    .header {width: 100%; height: auto; background: url(../imagens/capa600.png) no-repeat; background-size: cover; background-position: center; margin-bottom: -200px;}
+    .header01 {flex-direction: column; padding: 40px 10px;}
+    .header01 .menu {margin-top: 30px;}
+    .header01 .menu li + li {margin-left: 35px;}
+    .header02 {margin: 10px;}
+    .header02 h2 {font-size: 30px; text-align: center; margin: 30px 0;}
+    .header02 p {text-align: justify; margin-top: 150px;}
+}
 /*==========CONTENT==========*/
 .content01 {display: flex; justify-content: space-between; background-color: #472562; padding: 0 150px 0 310px;}
 .content01a h2, .content01a p, .content01a ul li {color: white;}
@@ -28,10 +37,22 @@
 .content01a button {width: 160px; height: 45px; border-radius: 25px; border: none; background-color: #ff703d; 
 color: white; cursor: pointer; margin-top: 30px;}
 .content01b img {width: 500px; margin: -30px 0 -4px 0;}
+@media screen and (max-width: 600px){
+    .content01 {flex-direction: column; padding: 10px;}
+    .content01a h2, .content01a p {text-align: center;}
+    .content01a p {margin-bottom: 30px;}
+    .content01a ul li {text-align: center; list-style: none;}
+    .content01a button {display: block; margin: 30px auto;}
+    .content01b img {width: 100%; margin: 0 0 -14px 0;}
+}
 .content02 h2, .content02 p {text-align: center;}
 .content02 h2 {color: #472663; font-weight: 300; font-size: 1.5em; margin: 35px 0;}
 .content02 p {padding: 0 250px; text-align: justify; margin-bottom: 70px;}
 .content02 img {display: block; margin: 0 auto; position: relative; margin-bottom: -60px;}
+@media screen and (max-width: 600px){
+    .content02 p {padding: 0 10px;}
+    .content02 img {width: 100%; padding: 0 10px;}
+}
 .content03 {display: flex; justify-content: space-between;}
 .content03a, .content03b {width: 50%;}
 .content03a {background-color: #835fa7; padding: 140px 50px 100px 100px;}
@@ -49,6 +70,11 @@ color: white; cursor: pointer; margin-top: 30px;}
 .content03b2b .bolinha01 {width: 16px; height: 16px; background-color: #aaaaaa; border-radius: 50%; cursor: pointer;}
 .content03b2b .bolinha02, .content03b2b .bolinha03 {width: 16px; height: 16px; background-color:#c8c8c8; 
 border-radius: 50%; cursor: pointer;}
+@media screen and (max-width: 600px){
+    .content03 {flex-direction: column;}
+    .content03a, .content03b {width: 100%; padding: 70px 10px;}
+    .content03a p, .content03b2a p {text-align: justify;}  
+}
 .content04 {display: flex; background-color: #472663; padding-bottom: 25px;}
 .content04a {width: 50%; padding: 100px 150px 0 40px;}
 .content04a h2, .content04a p {color: white;}
@@ -60,6 +86,21 @@ border-radius: 50%; cursor: pointer;}
 background-color: #ff703d; color: white; cursor: pointer;}
 .content04b {width: 50%; padding: 100px 150px 0 0;}
 .content04b h2 {font-size: 23px; font-weight: 300; margin-bottom: 10px; color: white;}
+@media screen and (max-width: 600px){
+    .content04 {flex-direction: column; padding-top: 50px;}
+    .content04a, .content04b {width: 100%; padding: 10px;}
+    .content04a h2 {text-align: center;}
+    .content04a p {padding-right: 0; text-align: justify;}
+    .content04a input, .content04a textarea {width: 100%;}
+    .content04a button {display: block; margin: 18px auto;}
+    .content04b h2 {text-align: center;}
+    .content04b iframe {width: 100%;}
+}
 /*==========FOOTER==========*/
 .footer {display: flex; justify-content: space-between; padding: 40px 30px; background-color: #192123;}
 .footer p {color: white; font-size: 15px;}
+@media screen and (max-width: 600px){
+    .footer {flex-direction: column;}
+    .footer p {text-align: center;}
+    .footer p + p {margin-top: 20px;}
+}
